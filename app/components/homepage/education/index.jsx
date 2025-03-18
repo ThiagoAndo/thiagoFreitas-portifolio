@@ -22,7 +22,6 @@ function Education() {
     threshold,
   });
 
-  console.log("education " + desV);
   return (
     <PageSection
       ref={des}
@@ -50,8 +49,10 @@ function Education() {
           </div>
 
           <GlowCard>
-            <Link href={"https://photos.app.goo.gl/HGWPM6T7jm5dja9y7"}
-            target="blank_">
+            <Link
+              href={"https://photos.app.goo.gl/HGWPM6T7jm5dja9y7"}
+              target="blank_"
+            >
               <div className="p-3 w-full h-full md:w-3/4 md:h-3/4 relative text-white cursor-pointer">
                 <div className="flex justify-center">
                   <p className="text-base  xl:text-1xl text-[#16f2b3]">
