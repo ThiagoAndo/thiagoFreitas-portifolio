@@ -1,4 +1,5 @@
 // @flow strict
+"use client"
 import Link from "next/link";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../../utils/animation-lottie";

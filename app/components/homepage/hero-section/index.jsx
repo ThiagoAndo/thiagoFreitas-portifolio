@@ -1,4 +1,5 @@
 // @flow strict
+
 import Image from "next/image";
 import SocialLinks from "./social-links";
 import Designation from "./designation";

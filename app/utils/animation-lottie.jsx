@@ -9,25 +9,25 @@ const AnimationLottie = ({
   min,
   max,
 }) => {
-  const { match: medium } = useMediaScreen(
-    "(min-width : 500px) and (max-width : 992px)"
-  );
-  const { match: large } = useMediaScreen(
-    "(min-width : 993px) and (max-width : 1200px)"
-  );
-  const { match: extraLarge } = useMediaScreen(
-    "(min-width : 1201px) and (max-width : 1700px)"
-  );
+  // const { match: medium } = useMediaScreen(
+  //   "(min-width : 500px) and (max-width : 992px)"
+  // );
+  // const { match: large } = useMediaScreen(
+  //   "(min-width : 993px) and (max-width : 1200px)"
+  // );
+  // const { match: extraLarge } = useMediaScreen(
+  //   "(min-width : 1201px) and (max-width : 1700px)"
+  // );
 
-  const isBig = medium || large || extraLarge;
+  // const isBig = medium || large || extraLarge;
  
   const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: animationPath,
     style: {
-      width: isBig === true ?widthMin: widthMax  ,
-      marginLeft: isBig === true ? max : min,
+      width: true === true ?widthMin: widthMax  ,
+      marginLeft: true === true ? max : min,
     },
   };
 

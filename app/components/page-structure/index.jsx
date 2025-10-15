@@ -24,6 +24,6 @@ export default function Structure() {
       <GitCode />
       <Education />
       <ContactSection />
-    </>
+           </>
   );
 }

@@ -1,4 +1,5 @@
 // @flow strict
+"use client";
 import GitHubCalendar from "react-github-calendar";
 import BdAnime from "../../../utils/border-animation";
 import Title from "../../ui/pageTitle";
@@ -36,7 +37,7 @@ function GitCode() {
           <TextAnime txt={"DAYS I CODE"} showTxt={desV} />
         </Title>
         <AnimatePresence>
-          {desV === true ? <Bg time={500} animate={true}/> : null}
+          {true === true ? <Bg time={500} animate={desV} /> : null}
         </AnimatePresence>
       </>
       <div className="md:mt-12 md:py-8">
